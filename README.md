@@ -18,8 +18,8 @@ L'objectif de la mission est de fournir une segmentation de clients qu’elles p
 * https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce : Base de données anonymisée comportant des informations sur l’historique des commandes, les produits achetés, les commentaires de satisfaction, et la localisation des clients depuis janvier 2017.
   
 ## Livrables
-* *LeRay_Adeline_1_Script_SQL_032024.ipynb* : Requêtes SQL pour répondre à des demandes métier
-* *LeRay_Adeline_2_Notebook_Analyse_Exploratoire_032024.ipynb* : Analyse exploratoire à partir des bases de données SQL, requêtes SQLite avec la bibliothèque python sqlite3
-* *LeRay_Adeline_3_Notebook_Essais_Clustering_032024.ipynb* : Essais de segmentation des clients avec des approches RFM (Recency - Frequency - Monetary) et des algorithmes de clustering K-means, DBSCAN, CAH (Classification Hiérarchique Ascendante)
-* *LeRay_Adeline_4_Notebook_Simulation_Maintenance_032024.ipynb* : Simulation pour déterminer la fréquence nécessaire de mise à jour du modèle de segmentation, afin que celui-ci reste pertinent
-* *LeRay_Adeline_5_Presentation_032024.pdf* : Présentation des résultats du projet
+* LeRay_Adeline_1_Script_SQL_032024.ipynb : *Requêtes SQL pour répondre à des demandes métier*
+* LeRay_Adeline_2_Notebook_Analyse_Exploratoire_032024.ipynb : *Analyse exploratoire à partir des bases de données SQL, requêtes SQLite avec la bibliothèque python sqlite3*
+* LeRay_Adeline_3_Notebook_Essais_Clustering_032024.ipynb : *Essais de segmentation des clients avec des approches RFM (Recency - Frequency - Monetary) et des algorithmes de clustering K-means, DBSCAN, CAH (Classification Hiérarchique Ascendante)*
+* LeRay_Adeline_4_Notebook_Simulation_Maintenance_032024.ipynb : *Simulation pour déterminer la fréquence nécessaire de mise à jour du modèle de segmentation, afin que celui-ci reste pertinent*
+* LeRay_Adeline_5_Presentation_032024.pdf : *Présentation des résultats du projet*
