@@ -4,15 +4,19 @@ _Projet réalisé dans le cadre de la formation Data Scientist d'OpenClassrooms 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white) ![sqlite](https://img.shields.io/badge/Sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![sklearn](https://img.shields.io/badge/scikitlearn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![plotly](https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white)
 
+## Contexte
+Olist est une entreprise brésilienne de e-commerce qui propose une solution de vente sur les marketplaces en ligne. Olist souhaite mieux cibler ses actions marketing en segmentant ses clients.
 
-## Compétences acquises
-* Évaluer les performances des modèles d’apprentissage non supervisé : K-means, DBSCAN, CAH
-* Sélectionner et entraîner des modèles d’apprentissage non-supervisé
+## Mission
+Identifier des segments clients pertinents à partir des données d'achat et recommander une fréquence de mise à jour.
 
-## Contexte et problématiques
-Olist est une entreprise brésilienne qui propose une solution de vente sur les marketplaces en ligne.
-Elle souhaite comprendre les différents types d'utilisateurs grâce à leur comportement et à leurs données personnelles. 
-L'objectif de la mission est de fournir une segmentation de clients qu’elles pourront utiliser au quotidien pour leurs campagnes de communication, ainsi qu’une proposition de contrat de maintenance basée sur une analyse de la stabilité des segments au cours du temps.
+## Actions
+1. Création des indicateurs RFM (Récence, Fréquence, Montant) à partir de requêtes SQL sur une base SQLite.
+2. Application de méthodes de clustering non supervisées (K-means, classification hiérarchique - CAH, DBSCAN) pour segmenter les clients.
+3. Analyse de la stabilité des segments dans le temps pour évaluer la fréquence optimale de mise à jour.
+
+## Résultat 
+Évaluation complète de la faisabilité technique et recommandations pour automatiser la classification, améliorant la scalabilité et la qualité de l’attribution des catégories.
 
 ## Données
 * https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce : Base de données anonymisée comportant des informations sur l’historique des commandes, les produits achetés, les commentaires de satisfaction, et la localisation des clients depuis janvier 2017.
